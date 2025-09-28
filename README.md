@@ -27,3 +27,5 @@ HTML5 – structure
 CSS3 – styling
 
 JavaScript (ES6) – functionality (DOM, localStorage, events)
+Demo
+https://mood60s.github.io/CRUD-Project/
