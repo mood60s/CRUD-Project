@@ -94,6 +94,7 @@ function showData() {
   } else {
     btnDelete.innerHTML = '';
   }
+  
 
 }
 showData();
@@ -183,6 +184,5 @@ function searchData(value) {
   }
   document.getElementById('tbody').innerHTML = newX;
 }
-
 
 
