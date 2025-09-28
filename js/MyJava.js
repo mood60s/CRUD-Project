@@ -94,12 +94,6 @@ function showData() {
   } else {
     btnDelete.innerHTML = '';
   }
-  
-if (document.querySelector("tbody").children.length > 5) {
-  document.querySelector("footer").style.position = "unset"
-} else {
-  document.querySelector("footer").style.position = "fixed"
-}
 
 }
 showData();
@@ -189,5 +183,6 @@ function searchData(value) {
   }
   document.getElementById('tbody').innerHTML = newX;
 }
+
 
 
