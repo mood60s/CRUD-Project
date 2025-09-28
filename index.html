@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cruds Management</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="crud">
+      <header>
+        <h2>crud</h2>
+        <p>product management system</p>
+      </header>
+      <div class="inputs">
+        <input placeholder="title" type="text" id="title" />
+        <div class="price parent-input">
+          <input type="number" id="price" placeholder="price" required />
+          <input type="number" id="taxes" placeholder="taxes"/>
+          <input type="number" id="ads" placeholder="ads" />
+          <input type="number" id="discount" placeholder="discount" />
+          <small id="total"></small>
+        </div>
+        <input placeholder="count" type="number" id="count" />
+        <input placeholder="category" type="text" id="category" />
+        <button id="submit">Create</button>
+      </div>
+      <div class="outputs">
+        <div class="search-Block">
+          <input type="text" id="search" placeholder="Search" onkeyup="searchData(this.value)" />
+          <div class="btn-Search">
+            <button onclick="getSearchMood(this.id)" id="searchTitle" class="search-Title">Search By Title</button>
+            <button onclick="getSearchMood(this.id)" id="searchCategory" class="search-Category">Search By Category</button>
+          </div>
+        </div>
+        <div id="deleteALL"></div>
+        <div class="parent-table">
+          <table>
+            <thead>
+              <tr>
+                <td>id</td>
+                <td>title</td>
+                <td>price</td>
+                <td>taxes</td>
+                <td>ads</td>
+                <td>discount</td>
+                <td>total</td>
+                <td>category</td>
+                <td>update</td>
+                <td>delete</td>
+              </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <footer>Hope You Like It Thanks Coded By <i>&hearts; &hearts;</i> <span>Mood</span></footer>
+    <script src="js/MyJava.js"></script>
+  </body>
+</html>

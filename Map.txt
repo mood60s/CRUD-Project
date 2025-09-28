@@ -1,0 +1,17 @@
+Done: Downbelow
+
+ Get total
+ Create Product
+Save Data LocaLStorage
+ Clear Inputs
+Read,
+Count
+Delete
+Update
+Search
+Clean -Data
+
+/*
+//Pending 0:
+*/
+
