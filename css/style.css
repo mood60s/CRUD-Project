@@ -190,26 +190,3 @@ tbody button:hover {
 End Style  Output!
  ========================================================
  */
-
-footer {
-   background-color: #51045f;
-   color: #fff;
-   font-size: 20px;
-   font-weight: bold;
-   text-align: center;
-   padding: 10px;
-   bottom: 0;
-   left: 0;
-   width: 100%;
-}
-footer span {
-  color: #eee;
-  font-style: italic;
-  font-variant: small-caps;
-  font-weight: bolder;
-  font-size: 25px;
-}
-footer i { 
-  color: #040;
-
-}
