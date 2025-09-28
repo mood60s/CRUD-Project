@@ -1,2 +1,29 @@
 # CRUD-Project
-A lightweight CRUD management app for handling products. Users can add, update, search, and delete products with fields like title, price, taxes, ads, discount, and category. Built with pure HTML, CSS, and JavaScript (no frameworks). Data is stored in localStorage to persist between sessions.
+📌 Detailed Description (for README.md)
+🛍️ CRUD Product Management System
+
+This project is a product management system that demonstrates basic CRUD operations using Vanilla JavaScript.
+
+✨ Features
+
+➕ Create new products with details (title, price, taxes, ads, discount, category).
+
+🧮 Automatic total calculation based on input values.
+
+📂 Store data in localStorage so it persists after page reload.
+
+🔍 Search functionality (by title or category).
+
+✏️ Update existing product entries.
+
+❌ Delete single or all products.
+
+📱 Responsive design with clean UI.
+
+🛠️ Technologies Used
+
+HTML5 – structure
+
+CSS3 – styling
+
+JavaScript (ES6) – functionality (DOM, localStorage, events)
