@@ -94,8 +94,6 @@ function showData() {
   } else {
     btnDelete.innerHTML = '';
   }
-  
-
 }
 showData();
 //Delete,
@@ -135,8 +133,9 @@ function updateData(i) {
 }
 //Search MOOD
 let SearchMood = 'title';
+let search;
 function getSearchMood(id) {
-  let search = document.getElementById('search');
+   search = document.getElementById('search');
   id === 'searchTitle' ? (SearchMood = 'title') : (SearchMood = 'category');
   search.placeholder = 'Search By ' + SearchMood;
   search.focus();
