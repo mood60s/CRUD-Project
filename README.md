@@ -1,5 +1,5 @@
 # CRUD-Project
-📌 Detailed Description (for README.md)
+📌 Detailed Description DownBelow
 🛍️ CRUD Product Management System
 
 This project is a product management system that demonstrates basic CRUD operations using Vanilla JavaScript.
